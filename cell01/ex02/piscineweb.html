@@ -6,11 +6,23 @@
     <title>Document</title>
 </head>
 <style>
-    h1 {text-align: center;}
+    h1 {
+        text-align: center;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
 </style>
 <body>
     <h1>Piscine Web</h1>
-    <img src="dudeman.jpg" alt="dudeman" width="750" height="500">
-    <img src="rick.png" alt="rickroll " width="750" height="500">
+
+    <div class="image-container">
+        <img src="dudeman.jpg" alt="dudeman" width="750" height="500">
+        <img src="rick.png" alt="rickroll " width="750" height="500">
+    </div>
+
 </body>
 </html>
